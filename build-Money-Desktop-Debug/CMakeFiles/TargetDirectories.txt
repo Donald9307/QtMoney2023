@@ -1,0 +1,9 @@
+/home/donald/Qt6ci/build-Money-Desktop-Debug/CMakeFiles/Money.dir
+/home/donald/Qt6ci/build-Money-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/donald/Qt6ci/build-Money-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/donald/Qt6ci/build-Money-Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/donald/Qt6ci/build-Money-Desktop-Debug/CMakeFiles/install.dir
+/home/donald/Qt6ci/build-Money-Desktop-Debug/CMakeFiles/install/local.dir
+/home/donald/Qt6ci/build-Money-Desktop-Debug/CMakeFiles/install/strip.dir
+/home/donald/Qt6ci/build-Money-Desktop-Debug/CMakeFiles/Money_autogen_timestamp_deps.dir
+/home/donald/Qt6ci/build-Money-Desktop-Debug/CMakeFiles/Money_autogen.dir
