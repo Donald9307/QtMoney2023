@@ -2590,40 +2590,12 @@ void MainWindow::on_pushButtonNewFiscalYear_clicked()
             }
             else {
                 QSqlQuery query1;
-                QSqlQuery query2;
-                QSqlQuery query3;
-                QSqlQuery query4;
-                QSqlQuery query5;
-
-                query1.prepare("DELETE FROM banks;");
+                
+                query1.prepare("DELETE FROM transactions;");
                 query1.exec();
                 if(!query1.exec()){
-                    qInfo() << "Bank data not deleted";
-                    query1.lastError();
-                }
-                query2.prepare("DELETE FROM accounts;");
-                query2.exec();
-                if(!query2.exec()){
-                    qInfo() << "Accounts data not deleted";
-                    query2.lastError();
-                }
-                query3.prepare("DELETE FROM cc_account;");
-                query3.exec();
-                if(!query3.exec()){
-                    qInfo() << "Credit Card Account data not deleted";
-                    query3.lastError();
-                }
-                query4.prepare("DELETE FROM MemTrans;");
-                query4.exec();
-                if(!query4.exec()){
-                    qInfo() << "Memorized transactions data not deleted";
-                    query4.lastError();
-                }
-                query5.prepare("DELETE FROM transactions;");
-                query5.exec();
-                if(!query5.exec()){
                     qInfo() << "Transactions data not deleted";
-                    query5.lastError();
+                    query1.lastError();
                 }
                 int ret = msgBox.exec();
                 switch(ret) {
