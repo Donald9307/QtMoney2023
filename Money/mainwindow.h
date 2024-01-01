@@ -105,6 +105,8 @@ private slots:
 
     void on_pushButtonViewExp_2_clicked();
 
+    void on_pushButtonViewExp_3_clicked();
+
     void on_pushButtonViewExp_clicked();
 
     void on_pushButtonDeleteBank_clicked();
@@ -125,7 +127,31 @@ private slots:
 
     void on_pushButtonNewFiscalYear_clicked();
 
+    void on_pushButtonSearchAsset_clicked();
 
+    void on_pushButton_Mod_Date_clicked();
+
+    void on_pushButton_Mod_Amt_clicked();
+
+    void on_pushButtonReconAccounts_clicked();
+
+    void on_pbReconOK_clicked();
+
+    void on_pbReconCancel_clicked();
+
+    void on_pushButtonRefreshReconPayments_clicked();
+
+    void on_pushButtonMarkPmtSel_clicked();
+
+    void on_pushButtonReconRefreshDeposits_clicked();
+
+    void on_pushButtonMarkDepSel_clicked();
+
+    void on_pushButtonReconPostpone_clicked();
+
+    void on_pushButtonReconFinished_clicked();
+
+    void on_pushButtonReconResume_clicked();
 
 private:
     Ui::MainWindow *ui;
